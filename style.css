@@ -23,6 +23,10 @@ section{
     padding:20px;
 }
 
+article{
+    padding:20px;
+}
+
 .movie-row{
     display: flex;
     gap:25px;   
@@ -47,6 +51,13 @@ header{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+}
+
+footer{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    background-color: #796c09;
 }
 
 nav a{
