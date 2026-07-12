@@ -4,74 +4,149 @@
     padding: 0;
 }
 
-header{
+header {
     background-color: #796c09;
-    padding:1rem;
-    margin-top:10px;
+    padding: 1rem;
+    margin-top: 10px;
 }
 
-body{
+body {
     background: #2d2d2d;
     color: white;
 }
 
-h2{
+h2 {
     margin-bottom: 15px;
 }
 
-section{
-    padding:20px;
+.movie-card h3,
+.movie-card p {
+    padding: 0.5rem;
+    line-height: 0.5rem;
 }
 
-article{
-    padding:20px;
+section {
+    padding: 20px;
 }
 
-.movie-row{
+article {
+    padding: 20px;
+}
+
+.movie-row {
     display: flex;
-    gap:25px;   
+    gap: 25px;
 }
 
-.section-title{
+
+.movie-card {
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+.movie-card:hover {
+    box-shadow: 0 0 20px #796c09;
+    border-radius: 10px;
+}
+
+.movie-card img {
+    border-radius: 10px;
+}
+
+.section-title {
     display: flex;
     justify-content: space-between;
 }
 
-.movie-grid{
-    display:flex;
-    gap:25px;
+.movie-grid {
+    display: flex;
+    gap: 25px;
 }
 
-section a{
-    color:white
+section a {
+    color: white
 }
 
-header{
+header {
     display: flex;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
-footer{
-    padding:20px;
+footer {
+    padding: 20px;
     display: flex;
     justify-content: center;
     background-color: #796c09;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
 }
 
-.Navbar{
-    gap:20px;
+.Navbar {
+    gap: 20px;
     display: flex;
     gap: 20px;
 }
 
-.section img{
+.section img {
     height: 250px;
     width: 200px;
+}
+
+.About-us {
+    padding: 20px;
+}
+
+aside h3 {
+    padding: 20px;
+}
+
+aside ul {
+    padding: 0px 20px;
+}
+
+.Website-Tuts {
+    padding: 20px;
+}
+
+.Website-Tuts p {
+    margin-top: 10px;
+}
+
+.mission p {
+    margin-top: 10px;
+}
+
+.About-us p {
+    margin-top: 10px;
+}
+
+.about p {
+    margin-top: 10px;
+}
+
+
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        flex-direction: column;
+    }
+
+    .movie-row,
+    .movie-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
