@@ -4,15 +4,56 @@
     padding: 0;
 }
 
+
+
 header {
     background-color: #796c09;
     padding: 1rem;
-    margin-top: 10px;
+    margin-top: 0px;
+    font-family: "poppins", sans-serif;
+}
+
+.introduction{
+    font-family: "poppins", sans-serif;
+}
+
+main p{
+    font-weight: lighter;
+    color: #ccc
 }
 
 body {
     background: #2d2d2d;
-    color: white;
+    color: #ccc;
+    font-family: "poppins", sans-serif;
+    font-weight: lighter;   
+}
+
+input,
+textarea,
+button{
+    font-family: "poppins" , sans-serif;
+}
+
+article {
+    padding: 20px;
+}
+
+article p{
+    color:#ccc
+}
+
+article a{
+    color: #796c09;
+    text-decoration: none;
+}
+
+article a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color:white;
 }
 
 h2 {
@@ -29,9 +70,7 @@ section {
     padding: 20px;
 }
 
-article {
-    padding: 20px;
-}
+
 
 .movie-row {
     display: flex;
@@ -75,15 +114,47 @@ header {
 }
 
 footer {
-    padding: 20px;
-    display: flex;
+    padding: 20px 20px;
+    display: block;
     justify-content: center;
     background-color: #796c09;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section{
+    max-width: 250px;
+}
+
+.footer-bottom{
+    text-align: center;
+    width:100%;
+    border-top: 1px solid;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+.footer-section a:hover{
+    text-decoration: underline;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+}
+
+nav a:hover{
+    color: #2d2d2d;
 }
 
 .Navbar {
@@ -97,38 +168,77 @@ nav a {
     width: 200px;
 }
 
-.About-us {
-    padding: 20px;
-}
-
-aside h3 {
-    padding: 20px;
-}
-
-aside ul {
-    padding: 0px 20px;
-}
-
+.About-us,
+aside h3,
+aside p,
 .Website-Tuts {
     padding: 20px;
 }
-
-.Website-Tuts p {
+.mission p{
     margin-top: 10px;
 }
 
-.mission p {
+section ul{
     margin-top: 10px;
 }
 
-.About-us p {
-    margin-top: 10px;
-}
-
+.About-us p
 .about p {
     margin-top: 10px;
 }
 
+ .Website-Tuts p{
+    margin-top: 10px;
+ }
+
+ form{
+    max-width:600px;
+    margin:auto;
+    padding:1rem;
+    border-radius: 6px;
+ }
+
+ label{
+    display: block;
+    margin-top: 1rem;
+ }
+
+ input,
+ textarea{
+    width:100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+ }
+
+ textarea{
+    width:100%;
+ }
+
+ button{
+    margin-top: 1rem;
+    padding:0.5rem 1rem;
+ }
+
+ table{
+    width:80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+ }
+  caption{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  th,
+  td{
+    border: 1px solid #796c09;
+    text-align: left;
+  }
+
+  th{
+    background-color: #111;
+    color: white;
+  }
 
 @media (max-width:768px) {
     header {
