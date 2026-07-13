@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CineMuse</h1>
+        <nav class="Navbar">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <form method="post" action="#">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Type your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Type a valid email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="What are you contacting about?" pattern="[A-Za-z]+" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Enter your message here" rows="5"></textarea>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
