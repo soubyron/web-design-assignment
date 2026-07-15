@@ -54,6 +54,7 @@ article a:hover{
 
 h1{
     color:white;
+    font-family:fantasy;
 }
 
 h2 {
@@ -201,6 +202,7 @@ section ul{
  label{
     display: block;
     margin-top: 1rem;
+    padding: 0 0.5rem;
  }
 
  input,
@@ -215,12 +217,20 @@ section ul{
  }
 
  button{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     padding:0.5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background: #796c09;
+    transform: translateY(-2px);
  }
 
  table{
-    width:80%;
+    width:50%;
     margin: 40px auto;
     border-collapse: collapse;
  }
