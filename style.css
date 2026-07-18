@@ -27,8 +27,8 @@ main p{
 }
 
 body {
-    background: #2d2d2d;
-    color: #ccc;
+    background: #2d2d2d !important;
+    color: #ccc !important;
     font-family: "poppins", sans-serif;
     font-weight: lighter;   
 }
@@ -301,8 +301,11 @@ section ul{
     max-width:500px;
   }
 
+  
+
   .movie-info h1 {
     font-family: "poppins", sans-serif;
+    color:white;
 }
 
 .movie-info h3 {
@@ -325,11 +328,16 @@ section ul{
 }
 
 .trailer iframe {
-    width: 100%;
+    width: 70%;
     max-width: 600px;
-    height: 200px;
+    height: 175px;
     border: none;
     border-radius: 6px;
+}
+
+.booking-box{
+    background-color: #796c09;
+    max-width: 600px;
 }
 
   
