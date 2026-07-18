@@ -92,6 +92,10 @@ section {
     border-radius: 10px;
 }
 
+.movie-card a{
+    text-decoration: none;
+}
+
 .movie-card:hover {
     box-shadow: 0 0 20px #796c09;
     border-radius: 10px;
@@ -150,7 +154,6 @@ footer {
 
 .footer-section a{
     text-decoration: none;
-    color: #2d2d2d;
 }
 
 .footer-section a:hover{
@@ -183,6 +186,11 @@ aside p,
 .Website-Tuts {
     padding: 20px;
 }
+
+.Website-Tuts p{
+    margin-top: 10px;
+}
+
 .mission p{
     margin-top: 10px;
 }
@@ -197,10 +205,19 @@ section ul{
     margin-top: 10px;
 }
 
- .Website-Tuts p{
-    margin-top: 10px;
+
+ 
+ 
+
+ .about-main-text{
+    max-width: 900px;
+    margin: 0 auto;
+    padding:40px;
  }
 
+ .about-main-text{
+    line-height: 1.8;
+ }
  form{
     max-width:600px;
     margin:auto;
