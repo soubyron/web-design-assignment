@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-
+.Hero img {
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
 
 header {
     background-color: #796c09;
@@ -178,6 +182,7 @@ aside p,
 .mission p{
     margin-top: 10px;
 }
+
 
 section ul{
     margin-top: 10px;
