@@ -3,6 +3,9 @@
 ## Description
 
 ## Features
+* Accessible
+* Responsive
+
 
 
 ## Accesibility

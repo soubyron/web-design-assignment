@@ -12,14 +12,21 @@
 
 header {
     background-color: #796c09;
-    padding: 1rem;
+    padding: 20px;
     margin-top: 0px;
     font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .introduction{
     font-family: "poppins", sans-serif;
+    font-weight: lighter;
+    line-height: 1.8;
 }
+
 
 main p{
     font-weight: lighter;
@@ -57,7 +64,7 @@ article a:hover{
 }
 
 h1{
-    color:white;
+    color: white !important;
     font-family:fantasy;
 }
 
@@ -96,6 +103,24 @@ section {
     text-decoration: none;
 }
 
+.movie-card h3 {
+    font-size: 20px;
+    color: white;
+    padding: 0.5rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    font-size: 18px;
+    color: #ccc;
+    padding: 0 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 0;
+}
+
+
+
 .movie-card:hover {
     box-shadow: 0 0 20px #796c09;
     border-radius: 10px;
@@ -119,12 +144,7 @@ section a {
     color: white
 }
 
-header {
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 footer {
     padding: 20px 20px;
@@ -154,7 +174,10 @@ footer {
 
 .footer-section a{
     text-decoration: none;
+    color: blue;
 }
+
+
 
 .footer-section a:hover{
     text-decoration: underline;
@@ -163,6 +186,7 @@ footer {
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: normal;
 }
 
 nav a:hover{
@@ -218,6 +242,9 @@ section ul{
  .about-main-text{
     line-height: 1.8;
  }
+
+ 
+ 
  form{
     max-width:600px;
     margin:auto;
