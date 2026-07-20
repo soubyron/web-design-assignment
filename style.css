@@ -402,9 +402,18 @@ section ul{
         align-items: center;
     }
 
-    .trailer iframe{
-        height: 150px
-    }
+.trailer iframe{
+    width: 190px;
+    height:130px;
+}
 
+header,
+footer{
+    width:100%;
+}
+
+.movie-container{
+    gap:20px;
+}
 
 }
