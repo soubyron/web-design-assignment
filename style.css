@@ -416,5 +416,10 @@ footer{
     gap:20px;
 }
 
+.movie-overview{
+    display: flex;
+    flex-direction: column;
+}
+
 }
 
