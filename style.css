@@ -339,6 +339,7 @@ section ul{
 
   .movie-info{
     max-width:500px;
+    font-family: "poppins", sans-serif;
   }
 
   
@@ -375,10 +376,17 @@ section ul{
     border-radius: 6px;
 }
 
-.booking-box{
+.booking-message{
     background-color: #796c09;
     max-width: 600px;
 }
+
+
+.container{
+     font-family: "poppins", sans-serif;
+}
+
+
 
   
 
