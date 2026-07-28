@@ -333,7 +333,8 @@ section ul{
   }
 
   .poster img{
-    width: 300px;
+    width: 375px;
+    height: 550px;
     border-radius: 6px;
   }
 
@@ -360,6 +361,7 @@ section ul{
     line-height: 1.6;
 }
 
+
 .trailer{
     margin-top:10px;
 }
@@ -369,9 +371,9 @@ section ul{
 }
 
 .trailer iframe {
-    width: 70%;
+    width: 80%;
     max-width: 600px;
-    height: 175px;
+    height: 290px;
     border: none;
     border-radius: 6px;
 }
@@ -411,8 +413,9 @@ section ul{
     }
 
 .trailer iframe{
-    width: 220px;
-    height:150px;
+    width: 300px;
+    height:215px;
+    justify-content: center;
 }
 
 header,
@@ -424,10 +427,21 @@ footer{
     gap:20px;
 }
 
-.movie-overview{
-    display: flex;
+.movie-container{
     flex-direction: column;
+    align-items: center;
 }
 
+
+.movie-overview{
+    width: 100%;
 }
 
+
+.movie-info{
+    text-align: center;
+}
+
+
+
+}
