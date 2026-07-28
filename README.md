@@ -12,11 +12,11 @@ This site provides users with information about movies, on sale tickets and most
 
 
 ## Major challenges
-After the initial completion I realised some of my CSS styling had overidden and it affected my whole flow on the site. I had to style some stuff individually just to prevent further overiding and confusion. I tried many changes but all to no avail so I searched it on ChatGPT and I saw the "!important" tag which came in handy to protect some of my styling. Right now the site is in good shape. I also realised that introducing bootstrap after doing most of the HTML and CSS caused a few problems that I initially was not facing.
+After the initial completion I realised some of my CSS styling had overidden and it affected my whole flow on the site. I had to style some stuff individually just to prevent further overiding and confusion. I tried many changes but all to no avail so I told ChatGPT my problem and it suggested the "!important" tag which came in handy to protect some of my styling. Right now the site is in good shape. I also realised that introducing bootstrap after doing most of the HTML and CSS caused a few problems that I initially was not facing.
 
 ## Major AI usage points (ChatGPT)
-ChatGPT helped me with creating a movie card which I then applied to the subsequent cards. The collapsed table was also used by the aid of AI.
-AI was a source of inspiration for CSS transitions where the movie cards show a yellowish box shadow when hovered. After every major design I asked AI how to make design and layout better. AI was also a major part of my styling the "book tickets" button with bootstrap as bootstrap feels challenging to me.
+ChatGPT helped me with creating a movie card which I then applied to the subsequent cards. The collapsed table was also used by the aid of AI. I did not know the exact styling command to use for collpasing the table so AI came in handy. I used a basic table setup to avoid confusing myself. 
+AI was a source of inspiration for CSS transitions where the movie cards show a yellowish box shadow when hovered. AI was also a major part of my styling the "book tickets" button with bootstrap as bootstrap feels challenging to me. I tried to create a button to redirect a user to a cinema page but I could not find my way around it. I asked ChatGPT what i was doing wrong. It gave me a simple code to <a href="https://www.cineworld.ie/#/" class="btn btn-danger">Book Tickets</a> which I tried and it worked perfectly. The "want to book a ticket?" and "Click below to visit our cinema partner and reserve your seats" were all AI generated texts.
 
 ## What I would do better if I were to start again
 Organising my CSS file so I can easily locate what I'm looking for. That was one struggle I had because everything was all over the place. Arranging it according to pages is the way I would go. 
